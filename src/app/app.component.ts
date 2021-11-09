@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Helloooooooo??';
+
+  /* AQUI SERÃO IMPLEMENTADOS OS CÓDIGOS */
+  
+  /* AQUI SERÃO IMPLEMENTADOS OS CÓDIGOS */
 }
