@@ -8,6 +8,8 @@ import { InterpolationComponent } from './components/interpolation/interpolation
 import { PropertyBindingComponent } from './components/property-binding/property-binding.component';
 import { EventBindingComponent } from './components/event-binding/event-binding.component';
 import { TwoWayComponent } from './components/two-way/two-way.component';
+import { SecundarioComponent } from './components/secundario/secundario.component';
+import { MegaSaltoComponent } from './components/mega-salto/mega-salto.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { TwoWayComponent } from './components/two-way/two-way.component';
     InterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    TwoWayComponent
+    TwoWayComponent,
+    SecundarioComponent,
+    MegaSaltoComponent
   ],
   imports: [
     BrowserModule,
