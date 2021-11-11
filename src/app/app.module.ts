@@ -10,6 +10,7 @@ import { EventBindingComponent } from './components/event-binding/event-binding.
 import { TwoWayComponent } from './components/two-way/two-way.component';
 import { SecundarioComponent } from './components/secundario/secundario.component';
 import { MegaSaltoComponent } from './components/mega-salto/mega-salto.component';
+import { OutputComponent } from './components/output/output.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MegaSaltoComponent } from './components/mega-salto/mega-salto.component
     EventBindingComponent,
     TwoWayComponent,
     SecundarioComponent,
-    MegaSaltoComponent
+    MegaSaltoComponent,
+    OutputComponent
   ],
   imports: [
     BrowserModule,
