@@ -11,6 +11,7 @@ import { TwoWayComponent } from './components/two-way/two-way.component';
 import { SecundarioComponent } from './components/secundario/secundario.component';
 import { MegaSaltoComponent } from './components/mega-salto/mega-salto.component';
 import { OutputComponent } from './components/output/output.component';
+import { NgIfComponent } from './components/ng-if/ng-if.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { OutputComponent } from './components/output/output.component';
     TwoWayComponent,
     SecundarioComponent,
     MegaSaltoComponent,
-    OutputComponent
+    OutputComponent,
+    NgIfComponent
   ],
   imports: [
     BrowserModule,

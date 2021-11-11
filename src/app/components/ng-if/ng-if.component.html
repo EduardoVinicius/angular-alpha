@@ -1,0 +1,41 @@
+<div class="content">
+    <h1>Implementação da diretiva *ngIf</h1>
+    <div>
+        Exibir: <input type="checkbox" [(ngModel)]="exibir">
+    </div>
+
+    <h2>*ngIf - Uso direto</h2>
+    <p *ngIf="exibir">
+        Variável "exibir" com o checkbox ativado...
+    </p>
+    <p *ngIf="!exibir">
+        Variável "exibir" com o desativado...
+    </p>
+
+    <h2>*ngIf - Utilizando o bloco else</h2>
+    <p *ngIf="exibir; else blocoElse">
+        Texto exibido quando o checkbox estiver ativado (true).
+    </p>
+    <ng-template #blocoElse>
+        Texto exibido quando o checkbox estiver desativado (false).
+    </ng-template>
+
+    <h2>*ngIf - Usando then e else</h2>
+    <p *ngIf="exibir; then miniView else novoBloco">
+        Este conteúdo não será exibido.
+    </p>
+    <ng-template #miniView>
+        Texto exibido quando o checkbox estiver ativado (true).
+    </ng-template>
+    <ng-template #novoBloco>
+        Texto exibido quando o checkbox estiver desativado (false).
+    </ng-template>
+
+    <h2>Uso da propriedade hidden</h2>
+    <p [hidden]="exibir">
+        Texto exibido quando o checkbox estiver desativado (false).
+    </p>
+    <p [hidden]="!exibir">
+        Texto exibido quando o checkbox estiver ativado (true).
+    </p>
+</div>
