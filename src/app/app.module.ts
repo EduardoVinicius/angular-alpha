@@ -14,6 +14,7 @@ import { OutputComponent } from './components/output/output.component';
 import { NgIfComponent } from './components/ng-if/ng-if.component';
 import { NgForComponent } from './components/ng-for/ng-for.component';
 import { HomeComponent } from './components/home/home.component';
+import { CompServiceComponent } from './components/comp-service/comp-service.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HomeComponent } from './components/home/home.component';
     OutputComponent,
     NgIfComponent,
     NgForComponent,
-    HomeComponent
+    HomeComponent,
+    CompServiceComponent
   ],
   imports: [
     BrowserModule,
