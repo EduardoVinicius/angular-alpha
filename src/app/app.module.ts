@@ -12,6 +12,8 @@ import { SecundarioComponent } from './components/secundario/secundario.componen
 import { MegaSaltoComponent } from './components/mega-salto/mega-salto.component';
 import { OutputComponent } from './components/output/output.component';
 import { NgIfComponent } from './components/ng-if/ng-if.component';
+import { NgForComponent } from './components/ng-for/ng-for.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { NgIfComponent } from './components/ng-if/ng-if.component';
     SecundarioComponent,
     MegaSaltoComponent,
     OutputComponent,
-    NgIfComponent
+    NgIfComponent,
+    NgForComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
